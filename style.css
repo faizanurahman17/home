@@ -68,14 +68,29 @@ section{
 .input-container{
     height: 50%;
     width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 .search{
-    width: 100%;
+    width: 90%;
     height: 100%;
     font-size: 2rem;
     border-radius: .5em;
     padding-left: 10px;
     border: none;
+}
+.search-icon{
+    width: 10%;
+    height: 100%;
+}
+/* .input-container:hover .search-icon{
+    transform: rotate(90deg) scale(1.5)!important;
+} */
+.searchIconActivated{
+    transform: rotate(90deg) scale(1.5)!important;
 }
 .icon-bar{
     justify-content: end;
@@ -102,8 +117,9 @@ section{
     'wght' 200,
     'GRAD' 0,
     'opsz' 24
-  }
-.material-symbols-outlined:hover {
+}
+
+.material-symbols-outlined:hover,.input-container:hover .search-icon {
     color: #fff;
     /* border: 2px #979797 solid;
     background-color: #979797c5; */
