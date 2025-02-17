@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 body{
     width: 100svw;
@@ -191,6 +192,7 @@ section{
 .content-container a{
     display: block;
     /* border: 1px #000 solid; */
+    color: #000;
 }
 .title{
     grid-column-start: 1;
