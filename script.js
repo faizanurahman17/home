@@ -43,12 +43,12 @@ function contactTray() {
         contTray.innerHTML = `
             <h2>Social Media</h2>
             <ul>
-                <li><a href="https://wa.me/+917701897049" target="_blank">WhatsApp</a></li>
-                <li><a href="https://instagram.com/faizanurahman17" target="_blank">Instagram</a></li>
-                <li><a href="https://x.com/faizanurahman17" target="_blank">Twitter</a></li>
-                <li><a href="https://facebook.com/faizanurahman17" target="_blank">Facebook</a></li>
-                <li><a href="https://github.com/faizanurahman17" target="_blank">GitHub</a></li>
-                <li><a href="mailto:faizanurahman1711@icloud.com">Email</a></li>
+                <li><a href="https://wa.me/+917701897049" target="_blank">WhatsApp<img src="./imge/wb.png" alt="logo" class="list-img"></img></a></li>
+                <li><a href="https://instagram.com/faizanurahman17" target="_blank">Instagram<img src="./imge/insta.png" alt="logo" class="list-img"></img></a></li>
+                <li><a href="https://x.com/faizanurahman17" target="_blank">Twitter<img src="./imge/x.png" alt="logo" class="list-img"></img></a></li>
+                <li><a href="https://facebook.com/faizanurahman17" target="_blank">Facebook<img src="./imge/fb.png" alt="logo" class="list-img"></img></a></li>
+                <li><a href="https://github.com/faizanurahman17" target="_blank">GitHub<img src="./imge/gthb.png" alt="logo" class="list-img"></img></a></li>
+                <li><a href="mailto:faizanurahman1711@icloud.com">Email<img src="./imge/email.png" alt="logo" class="list-img"></img></a></li>
             </ul>
         `; 
         contTray.id = "contTray";
