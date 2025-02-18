@@ -289,3 +289,8 @@ section{
     border-radius: 50%;
     border: #797979 1px solid;
 }
+
+.highlight {
+    background-color: #79ea6f;
+    font-weight: bold;
+}

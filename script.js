@@ -44,6 +44,7 @@ function contactTray() {
             <h2>Social Media</h2>
             <ul>
                 <li><a href="https://wa.me/+917701897049" target="_blank">WhatsApp<img src="./imge/wb.png" alt="logo" class="list-img"></img></a></li>
+                <li><a href="https://t.me/faizanurahman17" target="_blank">Telegram<img src="./imge/t.png" alt="logo" class="list-img"></img></a></li>
                 <li><a href="https://instagram.com/faizanurahman17" target="_blank">Instagram<img src="./imge/insta.png" alt="logo" class="list-img"></img></a></li>
                 <li><a href="https://x.com/faizanurahman17" target="_blank">Twitter<img src="./imge/x.png" alt="logo" class="list-img"></img></a></li>
                 <li><a href="https://facebook.com/faizanurahman17" target="_blank">Facebook<img src="./imge/fb.png" alt="logo" class="list-img"></img></a></li>
@@ -78,3 +79,17 @@ input.focus();
 // } else {
 //     myHomeBtn.style.color = "black";
 // }
+
+input.addEventListener("input", function() {
+    let query = this.value.toLowerCase();
+    let elements = document.querySelectorAll(".searchable");
+
+    elements.forEach(el => {
+        let text = el.textContent.toLowerCase();
+        if (text.includes(query)) {
+            el.style.display = "block"; // Show matching elements
+        } else {
+            el.style.display = "none"; // Hide non-matching elements
+        }
+    });
+});
